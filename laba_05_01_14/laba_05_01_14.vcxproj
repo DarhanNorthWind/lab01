@@ -139,7 +139,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Administration.cpp" />
+    <ClCompile Include="Conference.cpp" />
+    <ClCompile Include="Keeper.cpp" />
     <ClCompile Include="laba_05_01_14.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Speaker.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Administration.h" />
+    <ClInclude Include="Conference.h" />
+    <ClInclude Include="Keeper.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="Program.h" />
+    <ClInclude Include="Speaker.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="List.inl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
