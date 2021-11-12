@@ -2,12 +2,15 @@
 #include <string>
 #include "Conference.h"
 class Administration :
-    public Conference
+	public Conference
 {
 private:
-    std::string name, position, responsibility;
+	std::string name, position, responsibility;
 
 public:
-    std::string get_data() override;
+	Administration(std::string name, std::string position, std::string responsibility);
+	~Administration();
+	std::string get_data() override;
+	std::string get_print_data() override;
 };
 
